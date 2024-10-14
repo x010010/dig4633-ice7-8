@@ -1236,6 +1236,74 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1001 &518405945
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6197657421540929924, guid: 5deb4cbe2779224498749732c0388067,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197657421540929924, guid: 5deb4cbe2779224498749732c0388067,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197657421540929924, guid: 5deb4cbe2779224498749732c0388067,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197657421540929924, guid: 5deb4cbe2779224498749732c0388067,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197657421540929924, guid: 5deb4cbe2779224498749732c0388067,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197657421540929924, guid: 5deb4cbe2779224498749732c0388067,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197657421540929924, guid: 5deb4cbe2779224498749732c0388067,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197657421540929924, guid: 5deb4cbe2779224498749732c0388067,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197657421540929924, guid: 5deb4cbe2779224498749732c0388067,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197657421540929924, guid: 5deb4cbe2779224498749732c0388067,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888982136058012282, guid: 5deb4cbe2779224498749732c0388067,
+        type: 3}
+      propertyPath: m_Name
+      value: BOXDOORCHAMBER
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5deb4cbe2779224498749732c0388067, type: 3}
 --- !u!1 &542795377
 GameObject:
   m_ObjectHideFlags: 0
@@ -3286,7 +3354,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -4859,6 +4927,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4094713249064622096, guid: d9470993b9bd0a541a884d6f6704a421, type: 3}
+    - {fileID: 1812496790419091512, guid: d9470993b9bd0a541a884d6f6704a421, type: 3}
+    - {fileID: 381302922, guid: d9470993b9bd0a541a884d6f6704a421, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5430152558404011643, guid: d9470993b9bd0a541a884d6f6704a421,
@@ -6124,3 +6194,4 @@ SceneRoots:
   - {fileID: 913289170}
   - {fileID: 1122372957}
   - {fileID: 1128397049}
+  - {fileID: 518405945}
